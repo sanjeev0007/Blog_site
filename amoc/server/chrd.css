@@ -1,0 +1,45 @@
+#main{
+		background: url(https://source.unsplash.com/iC1C54Cm6Mc);
+		/*height: 400px;*/ 
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+		background-size: cover;
+		background-position: center;
+	}
+#text{
+	color:#4c1b0b;
+	font-weight: 400;
+}
+.jumbotron h1{
+	font-weight: 600;
+	margin:40px 0px 0px 0px;
+	font-size: 3rem;
+}
+.jumbotron h1,p{
+	max-width: 33%;
+}
+.dropdown a:hover{
+	color: #4c1b0b;
+}
+/*.card{
+	width:23%;
+	margin:10px 1%;
+}*/
+.brand{
+	font-size: 20px;
+	color:#4c1b0b;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: .2rem;
+	font-weight: 400;
+}
+/*.carousel-inner{
+	height: 300px;
+	background-size: cover;
+		background-position: center;
+
+}
+.carousel-item .item, img{
+        height: 100% !important;
+        width:  100% !important;
+        border: 1px solid red;
+    }*/
