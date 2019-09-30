@@ -3,7 +3,10 @@
 This is simple CHRD website of college in which you can sign up and post things(post part is not done yet).
 
 
-This project is developed in nodejs.
+This project is developed in nodejs with the help of different of packages.
 
 
-Developing environment in Cloud9 IDE. 
+Envirnoment is cloud9 IDE.
+
+
+
