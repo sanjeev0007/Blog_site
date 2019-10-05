@@ -1,14 +1,14 @@
 #main{
 		background: url(https://source.unsplash.com/iC1C54Cm6Mc);
-		/*height: 400px;*/ 
-		color: white;
+	
+		color: black;
 		font-family: 'Josefin Sans', sans-serif;
 		background-size: cover;
 		background-position: center;
 	}
 #text{
 	color:#4c1b0b;
-	font-weight: 400;
+	font-weight: 200;
 }
 .jumbotron h1{
 	font-weight: 600;
@@ -27,5 +27,5 @@
 	color:#4c1b0b;
 	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: .2rem;
-	font-weight: 400;
+	font-weight: 200;
 }
