@@ -1,16 +1,17 @@
 var mongoose = require('mongoose'),
 
    UserSchema = new mongoose.Schema({
-      //for user name   
   name: {
     type: String,
     required: true
   },
+      //user email
   email: {
      //for user email
     type: String,
     required: true
   },
+      // create a password
   password: {
      //for user passward.
     type: String,
@@ -24,5 +25,4 @@ var mongoose = require('mongoose'),
 });
 
 const User = mongoose.model('User', UserSchema);
-//for connecting with other pages.
 module.exports = User;
