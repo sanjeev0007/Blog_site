@@ -11,19 +11,17 @@ router.get('/login', (req, res) => res.render('login'));
 // Register Page
 router.get('/signup', (req, res) => res.render('signup'));
 
-
-
 // Register
 router.post('/signup', (req, res) => {
   const { name, email, password, password2 } = req.body;
   let errors = [];
 
   if (!name || !email || !password || !password2) {
-    errors.push({ msg: 'Please enter all fields' });
+    errors.push({ msg: 'Please enter all correct fields' });
   }
 
   if (password != password2) {
-    errors.push({ msg: 'Passwords do not match' });
+    errors.push({ msg: 'Passwords do not match check again' });
   }
 
   if (password.length < 6) {
@@ -95,3 +93,4 @@ router.get('/logout', (req, res) => {
 });
 
 module.exports = router;
+//thsi is the final login page to validate the data and submit!!!
